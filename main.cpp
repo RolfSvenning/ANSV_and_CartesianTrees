@@ -9,7 +9,7 @@
 int main() {
     // ----- TESTING -----
     std::array<int, n> A = returnRandomArray();
-    bool verbose = false;
+    bool verbose = true;
     compareOutputOfNaiveSeqArraySeqStack(A, verbose);
 
     verifyHeapAndSortedPropertyOfCT(A, verbose);
